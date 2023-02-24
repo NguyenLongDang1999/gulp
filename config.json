@@ -1,0 +1,24 @@
+{
+    "assets": "assets",
+    "vendors_path": "./assets/vendors/",
+    "destination": {
+        "js": "assets/js",
+        "css": "assets/css"
+    },
+    "source": {
+        "js": "src/js",
+        "sass": "src/scss"
+    },
+    "vendors": {
+        "js": [
+            "jquery/jquery.min.js",
+            "popper/popper.min.js",
+            "bootstrap/bootstrap.min.js",
+            "perfectscrollbar/perfect-scrollbar.min.js"
+        ],
+        "css": [
+            "perfect-scrollbar/perfect-scrollbar.min.css",
+            "feather-icons/feather-icons.min.css"
+        ]
+    }
+}
